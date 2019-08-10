@@ -1,70 +1,476 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="ru">
 <head>
     <meta charset="UTF-8" name="Gurtom site">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gurtom</title>
     <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <link href="https://code.jquery.com/ui/1.12.1/themes/flick/jquery-ui.css" rel="stylesheet" type="text/css">
-    <link  href="./css/bootstrap.min.css" rel="stylesheet">
-    <link  href="./css/main.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
     <link href="./css/jquery.scrolling-tabs.css" rel="stylesheet">
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./css/animate.css" rel="stylesheet">
 </head>
 <body>
-<div class="panel panel-default">
-    <div class="panel-heading">Panel heading without title</div>
-</div>
+
 <div class="container-fluid">
     <div class="container">
-        <div class="info text-center">
-            <div class="row">
-                <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-signal logo"></span>
-                </div>
-                <div class="col-sm-8">
-                <h1>GurtOm</h1>
-                <p>We specialize in Robo</p>
-                </div>
-            </div>
+
+        <nav class="navbar fixed-top navbar-light bg-light">
+            <!--<a class="navbar-brand" href="#">Gurtom</a>-->
+            <img src="./img/logo.png" class="logo d-inline-block align-top" alt="Logo">
+            <img src="./img/logo.jpg" class="d-inline-block align-top" height="200">
+            <img src="./img/baner.jpg" class="d-inline-block align-top" height="200">
+            <img src="./img/logo.jpg" class="d-inline-block align-top" height="200">
+        </nav>
+        <nav class="navbar navbar-light bg-light">
+          <span class="navbar-text">
+            <h1>GurtOm - Make robots simply</h1>
+          </span>
+        </nav>
+
+
+        <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs" role="tablist" style="display: none">
-                        <li role="presentation" class="active"><a href="#tab1" role="tab" data-toggle="tab">О нас</a></li>
+                        <li role="presentation" class="active"><a href="#tab1" role="tab" data-toggle="tab">О нас</a>
+                        </li>
                         <li role="presentation"><a href="#tab2" role="tab" data-toggle="tab">Новости</a></li>
                         <li role="presentation"><a href="#tab3" role="tab" data-toggle="tab">Направления</a></li>
                         <li role="presentation"><a href="#tab4" role="tab" data-toggle="tab">События</a></li>
                         <li role="presentation"><a href="#tab5" role="tab" data-toggle="tab">Контакты</a></li>
                     </ul>
-                    <!-- Tab panes -->
-                    <div class="tab-content" style="display: none">
-                        <div role="tabpanel" class="tab-pane active" id="tab1">
-                            <div class="row">
-                                <div class="col-sm-12">
+                </div>
+            </div>
+            <!-- Tab panes -->
+
+            <div class="tab-content" style="display: none">
+                <div role="tabpanel" class="tab-pane active" id="tab1">
+                    <div class="container-fluid">
+                        <div class="row content">
+                            <div class="col-sm-12 position-fixed content tabcontent">
+                                <h2>HubGurtom or RoboMake</h2>
+                                <p>Некомерційна Громадска Організація “Всеукраїнске об’єднання ГУРТОМ” була створена для
+                                    проведення занять з робототехніки і програмування на різних платформах таких як:
+                                    lego education, arduino. </p>
+                                <p>Завдяки наполегливості та віри в єдину мету, а саме в розвиток дітей в сфері ІТ
+                                    програмування, на даний час ГУРТОМ міцно тримається як команда та рух популярізації
+                                    робототехніки в Україні.</p>
+                                <p>Навчання в гуртку є безкоштовнім. Всі грощі, які поступають від допомоги батьків
+                                    ідуть повністю на купівлю необхідного для праці з дітьми. На даний час гурток навіть
+                                    не має можливості сплачувати заробіну плату тренеру. Педагоги працюють повністю на
+                                    волонтерских заходах. За час існування (з лютого 2017року офіційно) було придбано
+                                    ноутбуки та планшети, два набори Lego Wedo 2.0 & EV3 Home Education та стартовий
+                                    набір з Arduino, а також багато інших датчиків, пристроїв та деталей, Кожного місяця
+                                    доповнюються витрати, які пов’язанні з участтю в змаганнях, докупівлі комплектуючих
+                                    та організаційними заходами. </p>
+                                <p>Гурток працює в ЗОШ №117 один раз на тиждень. Долучитися до навчання можно за
+                                    особистим зверненням у меседж або у вайбер. З вересня місяця плануються проведення
+                                    навчання в бібліотекі на Петрозаводський. </p>
+                                <p>Дітки з 5 до 16 рочків приймаютья на навчання. З радістю чекаємо на вас. Долучайтеся
+                                    до нашої команди і змінемо на найкраще майбутнє наших дітей. </p>
+                                <p>Навчання в гуртку є безкоштовнім. Всі грощі, які поступають від допомоги батьків
+                                    ідуть повністю на купівлю необхідного для праці з дітьми. На даний час гурток навіть
+                                    не має можливості сплачувати заробіну плату тренеру. Педагоги працюють повністю на
+                                    волонтерских заходах. За час існування (з лютого 2017року офіційно) було придбано
+                                    ноутбуки та планшети, два набори Lego Wedo 2.0 & EV3 Home Education та стартовий
+                                    набір з Arduino, а також багато інших датчиків, пристроїв та деталей, Кожного місяця
+                                    доповнюються витрати, які пов’язанні з участтю в змаганнях, докупівлі комплектуючих
+                                    та організаційними заходами. </p>
+                                <p>Гурток працює в ЗОШ №117 один раз на тиждень. Долучитися до навчання можно за
+                                    особистим зверненням у меседж або у вайбер. З вересня місяця плануються проведення
+                                    навчання в бібліотекі на Петрозаводський. </p>
+                                <p>Дітки з 5 до 16 рочків приймаютья на навчання. З радістю чекаємо на вас. Долучайтеся
+                                    до нашої команди і змінемо на найкраще майбутнє наших дітей. </p>
+                                <p>Некомерційна Громадска Організація “Всеукраїнске об’єднання ГУРТОМ” була створена для
+                                    проведення занять з робототехніки і програмування на різних платформах таких як:
+                                    lego education, arduino. </p>
+                                <p>Завдяки наполегливості та віри в єдину мету, а саме в розвиток дітей в сфері ІТ
+                                    програмування, на даний час ГУРТОМ міцно тримається як команда та рух популярізації
+                                    робототехніки в Україні.</p>
+                                <p>Навчання в гуртку є безкоштовнім. Всі грощі, які поступають від допомоги батьків
+                                    ідуть повністю на купівлю необхідного для праці з дітьми. На даний час гурток навіть
+                                    не має можливості сплачувати заробіну плату тренеру. Педагоги працюють повністю на
+                                    волонтерских заходах. За час існування (з лютого 2017року офіційно) було придбано
+                                    ноутбуки та планшети, два набори Lego Wedo 2.0 & EV3 Home Education та стартовий
+                                    набір з Arduino, а також багато інших датчиків, пристроїв та деталей, Кожного місяця
+                                    доповнюються витрати, які пов’язанні з участтю в змаганнях, докупівлі комплектуючих
+                                    та організаційними заходами. </p>
+                                <p>Гурток працює в ЗОШ №117 один раз на тиждень. Долучитися до навчання можно за
+                                    особистим зверненням у меседж або у вайбер. З вересня місяця плануються проведення
+                                    навчання в бібліотекі на Петрозаводський. </p>
+                                <p>Дітки з 5 до 16 рочків приймаютья на навчання. З радістю чекаємо на вас. Долучайтеся
+                                    до нашої команди і змінемо на найкраще майбутнє наших дітей. </p>
+                                <p>Навчання в гуртку є безкоштовнім. Всі грощі, які поступають від допомоги батьків
+                                    ідуть повністю на купівлю необхідного для праці з дітьми. На даний час гурток навіть
+                                    не має можливості сплачувати заробіну плату тренеру. Педагоги працюють повністю на
+                                    волонтерских заходах. За час існування (з лютого 2017року офіційно) було придбано
+                                    ноутбуки та планшети, два набори Lego Wedo 2.0 & EV3 Home Education та стартовий
+                                    набір з Arduino, а також багато інших датчиків, пристроїв та деталей, Кожного місяця
+                                    доповнюються витрати, які пов’язанні з участтю в змаганнях, докупівлі комплектуючих
+                                    та організаційними заходами. </p>
+                                <p>Гурток працює в ЗОШ №117 один раз на тиждень. Долучитися до навчання можно за
+                                    особистим зверненням у меседж або у вайбер. З вересня місяця плануються проведення
+                                    навчання в бібліотекі на Петрозаводський. </p>
+                                <p>Дітки з 5 до 16 рочків приймаютья на навчання. З радістю чекаємо на вас. Долучайтеся
+                                    до нашої команди і змінемо на найкраще майбутнє наших дітей. </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tab2">
+                    <div class="container-fluid">
+                        <div class="row content">
+                            <div class="col-sm-12">
+                        <div class="media">
+                            <h2>Сортування сміття</h2>
+                            <a class="media-left media-middle"  href="./img/foto_1.jpg">
+                                <img src="img/foto_1.jpg" style="box-shadow: 1px 2px 4px rgba(0, 0, 0, 1.5);" alt="" class="img-content">
+                            </a>
+                                <div class="media-body">
+                            <p>Сьогодні у нас дуже цікаво та пізнавально!!!</p>
+                            <p>На відкритому уроці в 1-Б класі в рамках проекту "Зелена школа" за підтримки гуртка RoboMakeр розповіли та показали, чому важливо навчитися сортувати сміття і здавати його на переробку до пунктів прийому вторинної сировини. Навчити дитину відрізняти один матеріал від іншого допомогла цікава гра "Сортуємо сміття". А з конструктора Wedo 2.0 діти, за допомогою тренерів ГО "Гуртом" побудували власний сміттєвоз та завод з сортування та перобки відходів. "Україна без сміття! Навчимо дітей піклуватися про планету разам!" - головний поклик такого цікавого уроку.</p>
+                                </div>
+                        </div>
+                                <div class="media">
+                                    <h2>Сортування сміття</h2>
+                                    <a class="media-left media-middle"  href="./img/foto_1.jpg">
+                                        <img src="img/foto_1.jpg" alt="" class="img-content">
+                                    </a>
+                                    <div class="media-body">
+                                        <p>Сьогодні у нас дуже цікаво та пізнавально!!!</p>
+                                        <p>На відкритому уроці в 1-Б класі в рамках проекту "Зелена школа" за підтримки гуртка RoboMakeр розповіли та показали, чому важливо навчитися сортувати сміття і здавати його на переробку до пунктів прийому вторинної сировини. Навчити дитину відрізняти один матеріал від іншого допомогла цікава гра "Сортуємо сміття". А з конструктора Wedo 2.0 діти, за допомогою тренерів ГО "Гуртом" побудували власний сміттєвоз та завод з сортування та перобки відходів. "Україна без сміття! Навчимо дітей піклуватися про планету разам!" - головний поклик такого цікавого уроку.</p>
+                                    </div>
+                                </div>
+                        <div class="media">
+                            <h2>Чудова новина</h2>
+                                <div class="media-left media-middle">
+                            <div class="embed-responsive embed-responsive-16by9 float-left video-content">
+                                <video width=""height="" controls>
+                                   <source src="video/xab_open.mp4"type="video/mp4">
+                                </video>
+                                <!--<iframe class="embed-responsive-item" src="video/xab_open.mp4 " allowfullscreen frameborder="0" ></iframe>-->
+                            </div>
+                                </div>
+                            <div class="media-body">
+                                Чудова новина! Нарешті після довгих місяців підготовки відбувся перший день занять у новому простору за адресою Передова, 618 (Довгиш)!
+
+                                Тепер є можливість відвідувати заняття з робототехніки та програмування не тільки у вихідні дні, а також у будні, після школи.
+
+                                Подробиці дізнатися можна по вайберу <b>093-690-99-66</b>
+
+                            </div>
+
+
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="tab3">
+
+
+
+                    <div class="container-fluid">
+                        <div class="row content">
+                            <div class="col-sm-12">
+                                <div class="col-sm-12 courses">
+                                <h4 class="styleCourses">Курсы</h4>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="course textCenter">
+                                            <div class="course-image">
+                                                <img class="card-img" src="img/courses/arduino_photo.png">
+                                            </div>
+                                            <div class="containerCourses">
+                                                <p class="nameCourses">Ардуино</p>
+                                                <p class="textCourses">Набор в группу открыт</p>
+                                                <p class="textCourses">Возраст:11лет</p>
+                                                <p class="textCourses">Размер группы:8 человек</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="course textCenter">
+                                            <div class="course-image">
+                                                <img class="card-img" src="img/courses/Ev3_photo.jpg">
+                                            </div>
+                                            <div class="containerCourses">
+                                                <p class="nameCourses">Робототехника Lego mindstorms EV3</p>
+                                                <p class="textCourses">Набор в группу открыт</p>
+                                                <p class="textCourses">Возраст:9 лет</p>
+                                                <p class="textCourses">Размер группы:4 человек</p>
+                                            </div>
+                                        </div>
+                                </div>
+                                    <div class="col-sm-4">
+                                        <div class="course textCenter">
+                                            <div class="course-image">
+                                                <img class="card-img" src="img/courses/lego_wedo_2.jpg">
+                                            </div>
+                                            <div class="containerCourses">
+                                                <p class="nameCourses">Робототехника Lego WEDO</p>
+                                                <p class="textCourses">Набор в группу открыт</p>
+                                                <p class="textCourses">Возраст:5 лет</p>
+                                                <p class="textCourses">Размер группы: 6 человек</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="course textCenter">
+                                            <div class="course-image">
+                                                <img class="card-img" src="img/courses/scratch_photo.jpg">
+                                            </div>
+                                            <div class="containerCourses">
+                                                <p class="nameCourses">Программирование Scratch</p>
+                                                <p class="textCourses">Набор в группу открыт</p>
+                                                <p class="textCourses">Возраст:5 лет</p>
+                                                <p class="textCourses">Размер группы: 4 человек</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="course textCenter">
+                                            <div class="course-image">
+                                                <img class="card-img" src="img/courses/paintGurtom.jpg">
+                                            </div>
+                                            <div class="containerCourses">
+                                                <p class="nameCourses">Творча Хата</p>
+                                                <p class="textCourses">Набор в группу открыт</p>
+                                                <p class="textCourses">Возраст:для детей и взрослых</p>
+                                                <p class="textCourses">Размер группы: 6 человек</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="course textCenter">
+                                            <div class="course-image">
+                                                <img class="card-img" src="img/courses/schoolGurtom.jpg">
+                                            </div>
+                                            <div class="containerCourses">
+                                                <p class="nameCourses">Подготовка в школу</p>
+                                                <p class="textCourses">Набор в группу открыт</p>
+                                                <p class="textCourses">Возраст: 4-7</p>
+                                                <p class="textCourses">Размер группы: 6 человек</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
 
                                 </div>
                             </div>
+
                         </div>
-                        <div role="tabpanel" class="tab-pane" id="tab2">Tab 2 content...</div>
-                        <div role="tabpanel" class="tab-pane" id="tab3">Tab 3 content...</div>
-                        <div role="tabpanel" class="tab-pane" id="tab4">Tab 4 content...</div>
-                        <div role="tabpanel" class="tab-pane" id="tab5">Tab 5 content...</div>
                     </div>
                 </div>
-            </div>
-        </div>
+                <div role="tabpanel" class="tab-pane" id="tab4">
+                    <div class="container-fluid">
+                        <div class="row content">
+                            <div class="col-sm-12">
+                                <div class="media">
+                                    <a class="media-left media-middle" href="./img/safeInternet.jpg">
+                                        <img src="/img/safeInternet.jpg" class="img-content" alt="save Internet">
+                                    </a>
+                                    <div class="media-body">
+                                        <!--<h4 class="media-heading">Медіа, яке вирівняно по-центру</h4>-->
+                                        Любий друже! З нагоди "Дня безпечного Інтернету" запрошуємо тебе взяти участь у
+                                        флешмобі цифрового громадянства й безпеки: обачністі, пильності, захисту,
+                                        ввічливості, сміливості в мережі інтернет.
+
+                                        місце проведення: 117 школа, м.Дніпро, Україна
+                                        та Бібліотека на Петрозаводській
+                                        дата: 5 та 9 лютого 2019 року
+                                        час: повідомемо окремим повідомленням
+
+                                        На тебе чекає корисний курс від Google for Education на тему "Курс із мережевого
+                                        етикету й безпеки"
+                                        Спікер Татьяна Ковалева (Tatyana Kovaleva) за підтримки RoboMake.
+
+                                        Вхід вільний!
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tab5">
+                    <div class="container-fluid contact">
+                        <div class="row content">
+                            <div class="col-sm-12">
+                                <div class="contact h2" >
+                                <h2>КОНТАКТЫ</h2>
+                                </div>
+                                <div class="col-sm-12 adress1">
+                                    <h3>г.Днепр, ул. Передовая 618</h3>
+                                </div>
+
+                                <div class="col-sm-12">
+
+                                    <img src="img/maps/Hub_map.png" class="maps">
+                                    </div>
+
+                                    <div class="col-sm-12 map">
+                                     <div class="col-sm-3"><p class="styleMapAdress"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  Наш адрес: ул. Передовая, 618</p></div>
+                                     <div class="col-sm-3"><p class="styleMapContact"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Контакты:096-43-48758 </p></div>
+                                     <div class="col-sm-3"><p class="styleMapSite"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Сайт: Gurtom.loc</p></div>
+                                      <div class="col-sm-3"><p class="styleMapGrafic"> <span class="glyphicon glyphicon-time" aria-hidden="true"></span> График работы: Пн-Сб: 9-18</p></div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-12 adress1">
+                                    <h3>г.Днепр, ул. Передовая 800a</h3>
+                                </div>
+                                <div class="col-sm-12">
+
+                                        <img src="img/maps/117_map.png" class="maps">
+                                    </div>
+                                    <div class="col-sm-12 map">
+                                        <div class="col-sm-3"><p class="styleMapAdress"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  Наш адрес: ул. Передовая, 800</p></div>
+                                        <div class="col-sm-3"><p class="styleMapContact"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Контакты:096-43-48758 </p></div>
+                                        <div class="col-sm-3"><p class="styleMapSite"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Сайт: Gurtom.loc</p></div>
+                                        <div class="col-sm-3"><p class="styleMapGrafic"> <span class="glyphicon glyphicon-time" aria-hidden="true"></span> График работы: Пн-Сб: 9-18</p></div>
+
+
+                                    </div>
+                            <div class="row">
+                                <div class="col-sm-6 col-sm-offset-3">
+                                    <div class="forma">
+                                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScU1L10l2GnLYd9a38XWAzDkwuv3H1qf6wPzZW_y3iSW3RYQA/viewform?embedded=true" width="640" height="891" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe>                               <!--<h3>Send me a message</h3>-->
+                                    <!--<form role="form" id="contactForm">-->
+                                        <!--<div class="row">-->
+                                            <!--<div class="form-group col-sm-6">-->
+                                                <!--<label for="name" class="h4">Name</label>-->
+                                                <!--<input type="text" class="form-control" id="name" data-error="NEW ERROR MESSAGE" placeholder="Enter name" required>-->
+                                                <!--<div class="help-block with-errors"></div>-->
+                                            <!--</div>-->
+                                            <!--<div class="form-group col-sm-6">-->
+                                                <!--<label for="email" class="h4">Email</label>-->
+                                                <!--<input type="email" class="form-control" data-error="NEW ERROR MESSAGE" id="email" placeholder="Enter email" required>-->
+                                                <!--<div class="help-block with-errors"></div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                        <!--<div class="form-group">-->
+                                            <!--<label for="message" class="h4 ">Message</label>-->
+                                            <!--<textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>-->
+                                        <!--</div>-->
+                                        <!--<button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit</button>-->
+                                        <!--<div id="msgSubmit" class="h3 text-center hidden"></div>-->
+                                        <!--<div class="help-block with-errors"></div>-->
+                                    <!--</form>-->
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--<div> </div>-->
+                            <!--<div class="container">-->
+                                <!--<div class="row">-->
+                                    <!--<div class="col-md-4"> </div>-->
+                                    <!--<div class="col-md-4">-->
+                                        <!--<h4>Форма обратной связи на Bootstrap</h4>-->
+                                        <!--<form action="./mail.php" method="post">-->
+                                            <!--<div class="form-group">-->
+                                                <!--<label for="name">Ваше имя:</label>-->
+                                                <!--<input type="name" name="name" class="form-control" id="name" placeholder="Name">-->
+                                            <!--</div>-->
+                                            <!--<div class="form-group">-->
+                                                <!--<label for="email1">E-mail:</label>-->
+                                                <!--<input type="email" name="email" class="form-control" id="email1" placeholder="Email">-->
+                                            <!--</div>-->
+                                            <!--<div class="form-group">-->
+                                                <!--<label for="phone">Номер телефона:</label>-->
+                                                <!--<input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone">-->
+                                            <!--</div>-->
+                                            <!--<div class="form-group">-->
+                                                <!--<label for="message">Сообщение:</label>-->
+                                                <!--<textarea class="form-control" name="message" rows="3"></textarea>-->
+                                            <!--</div>-->
+                                            <!--<button type="submit" class="btn btn-info">Отправить сообщение</button>-->
+                                        <!--</form>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-md-4"> </div> </div>-->
+                            <!--</div>-->
+
+
+                            <!--<form action="mail.php" method="POST">-->
+                                <!--<p>Имя</p> <input type="text" name="name"/>-->
+                                <!--<p>Email</p> <input type="text" name="email"/>-->
+                                <!--<p>Сообщение</p><textarea name="message" rows="6" cols="25"></textarea><br />-->
+                                <!--<input type="submit" value="Отправить"/><input type="reset" value="Очистить"/>-->
+                            <!--</form>-->
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    </div>
+
     </div>
+                <!--<div role="tabpanel" class="tab-pane" id="tab6">-->
+                    <!--Tab 6 content...-->
+                <!--</div>-->
+            </div>
+            </div>
+            </div>
 
+        </div>
+
+    <!--</div>-->
+
+
+    <div class="footer navbar-fixed-bottom">
+        <nav class="container text-center">
+            <div class="text-center footer-mainlinks">
+                <ul class="clearfix">
+                    <li><span>@Copyright 2019, Gurtom.com</span></li>
+                    <li><a href="">О нас</a></li>
+                    <li><a href="">Новости</a></li>
+                    <li><a href="">Направления</a></li>
+                    <li><a href="">События</a></li>
+                    <li><a href="">Контакты</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
 </div>
-
-
-<div class="panel-footer">Panel footer</div>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/jquery.scrolling-tabs.js"></script>
 <script src="./js/app.js"></script>
-
+<script type="text/javascript" src="./js/scripts.js"></script>
+<!--<script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>-->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4Mwer0VR7MySwGknTG47uFXpbCH5QZVQ&callback=initMap">
+</script>
 </body>
 <footer></footer>
 
